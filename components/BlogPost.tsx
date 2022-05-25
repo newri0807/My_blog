@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { blog } from 'next/app';
 
-const BlogPost = ({date,title,des,slug }:blog) => {
+const BlogPost = ({date,title,des,slug }:any) => {
   var moment = require('moment');
   const publish_date = moment(date).format('YYYY년 MM월 DD일')
 
