@@ -3,7 +3,7 @@ import metadata from "../data/metadata";
 import Nav from "./Nav";
 import Image from "next/image";
 
-const Container = (props) => {
+const Container = (props:any) => {
   const meta = {
     title: metadata.title,
     description: metadata.description,
