@@ -5,7 +5,7 @@ import { InferGetStaticPropsType } from "next";
 import { useMDXComponent } from "next-contentlayer/hooks";
 import { format } from "path/posix";
 
-const Post = ({ post }) => {
+const Post = ({ post }:any) => {
     var moment = require('moment');
     const publish_date = moment(post.date).format('YYYY년 MM월 DD일')
    return (
@@ -26,7 +26,7 @@ export const getStaticPaths = async () => {
   };
 };
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = async ({ params }:any) => {
   const post = allPosts.find((p) => p._raw.flattenedPath === params.slug);
   return {
     props: {
