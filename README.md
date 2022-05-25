@@ -6,5 +6,4 @@
 > Next.js로 만든 나만의 블로그 앱입니다
 - contentlayer([http://www.naver.com/](https://github.com/contentlayerdev/contentlayer))사용 
 
-
-![my_blog](https://user-images.githubusercontent.com/51315988/170182222-b62a5d39-d84c-45a5-bc12-dc6f1e2ee5be.gif)
+![my blog 2](https://user-images.githubusercontent.com/51315988/170182548-c51edf9e-02fc-4ead-9400-af918dbf686a.gif)
